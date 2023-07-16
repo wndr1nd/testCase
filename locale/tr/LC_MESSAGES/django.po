@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-16 21:32+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\testApp\models.py:6
+msgid "Категория"
+msgstr "Kategori"
+
+#: .\testApp\models.py:7
+msgid "Описание"
+msgstr "Tanım"
+
+#: .\testApp\models.py:8
+msgid "Название"
+msgstr "İsim"
+
+#: .\testApp\models.py:15 .\testApp\models.py:25 .\testApp\models.py:35
+#: .\testApp\models.py:45
+msgid "Наименование"
+msgstr "İsim"
+
+#: .\testApp\models.py:16
+msgid "Общее колличество ядер"
+msgstr "Toplam çekirdek sayısı"
+
+#: .\testApp\models.py:17
+msgid "Базовая частота процессора ГГц"
+msgstr "CPU taban frekansı GHz"
+
+#: .\testApp\models.py:18 .\testApp\models.py:28 .\testApp\models.py:38
+#: .\testApp\models.py:48
+msgid "Цена"
+msgstr "Fiyat"
+
+#: .\testApp\models.py:26
+msgid "Тип памяти"
+msgstr "Bellek türü"
+
+#: .\testApp\models.py:27
+msgid "Тактовая частота МГц"
+msgstr "Saat frekansı MHz"
+
+#: .\testApp\models.py:36
+msgid "Диагональ экрана"
+msgstr "Ekran köşegeni"
+
+#: .\testApp\models.py:37
+msgid "Технология изготовления матрицы"
+msgstr "Matris üretim teknolojisi"
+
+#: .\testApp\models.py:46
+msgid "Модели ЦАП"
+msgstr "DAC Modelleri"
+
+#: .\testApp\models.py:47
+msgid "Разрядность АЦП"
+msgstr "ADC bit derinliği"

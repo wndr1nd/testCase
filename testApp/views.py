@@ -15,33 +15,21 @@ class CategoriesViewSet(viewsets.ModelViewSet):
     filterset_fields = '__all__'
 
 
-class CPUViewSet(viewsets.ModelViewSet):
-    permission_classes = (AdminOrReadOnly,)
+class CPUViewSet(CategoriesViewSet):
     queryset = CPU.objects.all()
     serializer_class = CPUSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = '__all__'
 
 
-class RAMViewSet(viewsets.ModelViewSet):
-    permission_classes = (AdminOrReadOnly,)
+class RAMViewSet(CategoriesViewSet):
     queryset = RAM.objects.all()
     serializer_class = RAMSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = '__all__'
 
 
-class MonitorViewSet(viewsets.ModelViewSet):
-    permission_classes = (AdminOrReadOnly,)
+class MonitorViewSet(CategoriesViewSet):
     queryset = Monitor.objects.all()
     serializer_class = MonitorSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = '__all__'
 
 
-class SoundCardViewSet(viewsets.ModelViewSet):
-    permission_classes = (AdminOrReadOnly,)
+class SoundCardViewSet(CategoriesViewSet):
     queryset = SoundCard.objects.all()
     serializer_class = SoundCardSerializer
-    filter_backends = [DjangoFilterBackend]
-    filterset_fields = '__all__'
