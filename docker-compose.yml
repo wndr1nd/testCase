@@ -6,6 +6,7 @@ services:
     ports:
       - "8000:8000"
     command: bash script.sh
+    restart: always
     volumes:
       - .:/usr/src/app
     env_file:
